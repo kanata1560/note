@@ -1,0 +1,27 @@
+form {
+  width: 90%;
+}
+
+#container {
+  display: flex;
+  width: 600px;
+  min-height: 1000px;
+  margin: 0 auto;
+  background-color: gainsboro;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width: 85%;
+  margin: 10px auto;
+  padding: 20px 30px;
+  background-color: mintcream;
+}
+
+li:hover {
+  background-color: white;
+}
